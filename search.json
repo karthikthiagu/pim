@@ -7,10 +7,24 @@
     "text": "Is \\(\\displaystyle \\left\\{( a,b,c) \\in \\mathbb{R}^{3} :\\ a^{3} =b^{3}\\right\\}\\) a subspace of \\(\\displaystyle \\mathbb{R}^{3}\\)?\nIs \\(\\displaystyle \\left\\{( a,b,c) \\in \\mathbb{R} :\\ a^{3} =b^{3}\\right\\}\\) a subspace of \\(\\displaystyle \\mathbb{C}^{3}\\)?"
   },
   {
+    "objectID": "problems/problem-1.html#solution",
+    "href": "problems/problem-1.html#solution",
+    "title": "Problem-1",
+    "section": "Solution",
+    "text": "Solution\nWe have:\n\\[\n\\begin{equation*}\n\\begin{aligned}\na^{3} & =b^{3}\\\\\n( a-b)\\left( a^{2} +ab+b^{2}\\right) & =0\n\\end{aligned}\n\\end{equation*}\n\\]\n\nSet-1\nIf \\(\\displaystyle a,b\\in \\mathbb{R}\\), then \\(\\displaystyle a=b\\) is the only possibility. Therefore, the following set is a subspace:\n\\[\n\\begin{equation*}\n\\left\\{( a,b,c) \\in \\mathbb{R}^{3} :a^{3} =b^{3}\\right\\} =\\left\\{( a,a,c) \\in \\mathbb{R}^{3}\\right\\}\n\\end{equation*}\n\\]\n\n\nSet-2\nIf \\(\\displaystyle a,b\\in \\mathbb{C}\\), in addition to \\(\\displaystyle a=b\\), we have \\(\\displaystyle a=zb\\) and \\(\\displaystyle a=\\overline{z} b\\), where \\(\\displaystyle z=\\frac{-1+\\sqrt{3} i}{2}\\).\nTo see why the other set is not a subspace, let us take two elements \\(\\displaystyle ( 1,z,0)\\) and \\(\\displaystyle ( 1,\\overline{z} ,0)\\) that are in the set. The sum \\(\\displaystyle ( z,1,0) +(\\overline{z} ,1,0) =( -1,2,0)\\) is not a member of the set. Since this set is not closed under vector addition, it can’t be a subspace of \\(\\displaystyle \\mathbb{C}^{3}\\)."
+  },
+  {
+    "objectID": "problems/problem-1.html#notes-on-the-problem",
+    "href": "problems/problem-1.html#notes-on-the-problem",
+    "title": "Problem-1",
+    "section": "Notes on the problem",
+    "text": "Notes on the problem\nThe solution to this problem was direct. I could see the pattern straight away and knew what had to be done here and I didn’t have to search for solutions. The solution was immediately available."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "PIM",
+    "title": "Problems in Mathematics",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Start Date\n        \n         \n          Solved\n        \n         \n          Source\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nStart Date\n\n\nSolved\n\n\nSource\n\n\nTitle\n\n\n\n\n\n\n2024-10-12\n\n\nFalse\n\n\nEx-1C-6, Pg 24, LADR, 4e\n\n\nProblem-1\n\n\n\n\n\nNo matching items"
+    "text": "This is an experiment to try and open up the intuitive regions of the mind with the help of mathematical problems. The Mother and Sri Aurobindo have stated that the true way of to solve a problem is to silence the mind and concentrate on the formulation of the problem without actively searching for solutions.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Start Date\n        \n         \n          Solved\n        \n         \n          Source\n        \n     \n  \n\n\n\n\n\nStart Date\n\n\nSolved\n\n\nSource\n\n\nTitle\n\n\n\n\n\n\n2024-10-12\n\n\nTrue\n\n\nEx-1C-6, Pg 24, LADR, 4e\n\n\nProblem-1\n\n\n\n\n\nNo matching items"
   }
 ]

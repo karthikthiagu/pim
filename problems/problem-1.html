@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Problem-1 – PIM</title>
+<title>Problem-1 – Problems in Mathematics</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -108,7 +108,7 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">PIM</span>
+    <span class="navbar-title">Problems in Mathematics</span>
     </a>
   </div>
         <div class="quarto-navbar-tools tools-end">
@@ -153,9 +153,38 @@ window.Quarto = {
 <li><p>Is <span class="math inline">\(\displaystyle \left\{( a,b,c) \in \mathbb{R}^{3} :\ a^{3} =b^{3}\right\}\)</span> a subspace of <span class="math inline">\(\displaystyle \mathbb{R}^{3}\)</span>?</p></li>
 <li><p>Is <span class="math inline">\(\displaystyle \left\{( a,b,c) \in \mathbb{R} :\ a^{3} =b^{3}\right\}\)</span> a subspace of <span class="math inline">\(\displaystyle \mathbb{C}^{3}\)</span>?</p></li>
 </ul>
-<hr>
+<section id="solution" class="level2">
+<h2 class="anchored" data-anchor-id="solution">Solution</h2>
+<p>We have:</p>
+<p><span class="math display">\[
+\begin{equation*}
+\begin{aligned}
+a^{3} &amp; =b^{3}\\
+( a-b)\left( a^{2} +ab+b^{2}\right) &amp; =0
+\end{aligned}
+\end{equation*}
+\]</span></p>
+<section id="set-1" class="level3">
+<h3 class="anchored" data-anchor-id="set-1">Set-1</h3>
+<p>If <span class="math inline">\(\displaystyle a,b\in \mathbb{R}\)</span>, then <span class="math inline">\(\displaystyle a=b\)</span> is the only possibility. Therefore, the following set is a subspace:</p>
+<p><span class="math display">\[
+\begin{equation*}
+\left\{( a,b,c) \in \mathbb{R}^{3} :a^{3} =b^{3}\right\} =\left\{( a,a,c) \in \mathbb{R}^{3}\right\}
+\end{equation*}
+\]</span></p>
+</section>
+<section id="set-2" class="level3">
+<h3 class="anchored" data-anchor-id="set-2">Set-2</h3>
+<p>If <span class="math inline">\(\displaystyle a,b\in \mathbb{C}\)</span>, in addition to <span class="math inline">\(\displaystyle a=b\)</span>, we have <span class="math inline">\(\displaystyle a=zb\)</span> and <span class="math inline">\(\displaystyle a=\overline{z} b\)</span>, where <span class="math inline">\(\displaystyle z=\frac{-1+\sqrt{3} i}{2}\)</span>.</p>
+<p>To see why the other set is not a subspace, let us take two elements <span class="math inline">\(\displaystyle ( 1,z,0)\)</span> and <span class="math inline">\(\displaystyle ( 1,\overline{z} ,0)\)</span> that are in the set. The sum <span class="math inline">\(\displaystyle ( z,1,0) +(\overline{z} ,1,0) =( -1,2,0)\)</span> is not a member of the set. Since this set is not closed under vector addition, it can’t be a subspace of <span class="math inline">\(\displaystyle \mathbb{C}^{3}\)</span>.</p>
+</section>
+</section>
+<section id="notes-on-the-problem" class="level2">
+<h2 class="anchored" data-anchor-id="notes-on-the-problem">Notes on the problem</h2>
+<p>The solution to this problem was direct. I could see the pattern straight away and knew what had to be done here and I didn’t have to search for solutions. The solution was immediately available.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
