@@ -4,11 +4,11 @@ start-date: "2024-10-12"
 end-date: "None"
 page-layout: full
 solved: "False"
+source: "Ex-1C-6, Pg 24, LADR, 4e"
 categories:
   - subspace
   - vector space
   - linear algebra
-  - LADR, Axler
 css: /styles.css
 ---
 
